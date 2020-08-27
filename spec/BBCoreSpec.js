@@ -561,11 +561,6 @@ describe("BBCore.contacts", function() {
         expect(bbCore.sendRequest).toHaveBeenCalledWith(jasmine.objectContaining({ importAddrCode: null }), successCallbackSpy);
     });
 
-    it("getClientRecentInteractions", function() {
-        bbCore.getClientRecentInteractions(null, successCallbackSpy);
-
-        expect(bbCore.sendRequest).toHaveBeenCalledWith(jasmine.any(Object), successCallbackSpy);
-    });
 });
 
 describe("BBCore.email", function() {
