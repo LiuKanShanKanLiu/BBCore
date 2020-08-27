@@ -18,7 +18,7 @@
   "scripts": {
     "clean": "gulp clean",
     "build": "gulp test && gulp build && gulp uglify && gulp add-core-header",
-    "docs": "gulp docs",
+    "docs": "gulp make-docs",
     "test": "gulp test"
   },
   "repository": {
